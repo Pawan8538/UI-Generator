@@ -9,7 +9,7 @@ dotenv.config();
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
-// We use gemini-1.5-flash — it's fast, cheap, and good enough for structured output.
+// We use gemini-2.5-flash — it's fast, cheap, and good enough for structured output.
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 async function askGemini(systemPrompt, userPrompt) {

@@ -10,7 +10,7 @@ import PreviewRenderer from "./panels/PreviewRenderer";
 import VersionControl from "./components/VersionControl";
 import "./App.css";
 
-const API_URL = "http://localhost:3001/api";
+const API_URL = "https://ui-generator.onrender.com/api";
 
 export default function App() {
   const [messages, setMessages] = useState([]);
