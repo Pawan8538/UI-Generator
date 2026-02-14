@@ -20,6 +20,10 @@ An AI-powered agent that converts natural language into working UI code using a 
     ```
 4.  Open `http://localhost:5173` in your browser.
 
+## Note:
+
+Currently used model gemini 2.5-flash is not accepting render location which causing error in deployed link, so please try on local system.
+
 ## Features
 
 - **Global Font**: 'Inter' for better readability.
