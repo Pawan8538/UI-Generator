@@ -9,7 +9,7 @@ An AI-powered agent that converts natural language into working UI code using a 
     ```bash
     cd server
     npm install
-    # Create .env file with your GEMINI_API_KEY
+    # Create .env file with your GEMINI_API_KEY and PORT
     npm run dev
     ```
 3.  **Client Setup**:
